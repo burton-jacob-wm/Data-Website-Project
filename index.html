@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Music Industry Statistics</title>
+    <link type="text/css" rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>The Music Industry in Numbers</h1>
+    </div>
+    <div class="content">
+        <div class="content_text">
+            <h2>How Money is made off Music</h2>
+            <p>The music industry continues to grow throughout the years however the digital music sales will continue to rise against the physical music sales.</p>
+            <p>Concerts and performances only account for 6% of the sales in the music industry while Digital and Physical sales both account for 92% together.</p>
+			<script src="buttons.js"></script>
+			<button type="button" style="margin-left: 15px;" onclick="button1()">Find Out More</button>
+		</div>
+        <div class="chartbox">
+            <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['corechart']}]}"></script>
+            <script src="pieChart.js"></script>
+            <div id="piechart"></div>
+        </div>
+    </div>
+	<br>
+	<div class="content">
+        <div class="content_text2">
+            <h2>Digital Music Sales</h2>
+            <p>Digital music is starting to grow so we need to find the statics about it.</p>
+            <p>These are the digital music revenues in the millions based on 2014 data.</p>
+			<button type="button" style="margin-left: 15px;" onclick="button2()">Find Out More</button>
+		</div>
+        <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['corechart']}]}"></script>
+        <script src="barChart.js"></script>
+        <div id="barChart"></div>
+    </div>
+    <div class="footer">
+
+    </div>
+</div>
+
+
+</body>
+
+</html>
